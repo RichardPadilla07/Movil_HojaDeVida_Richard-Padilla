@@ -1,17 +1,100 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content scroll-y="true" class="fade-in">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>HOJA DE VIDA</ion-card-title>
+      <ion-card-subtitle>Padilla Mejia Richard Alejandro</ion-card-subtitle>
+    </ion-card-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+    <ion-card-content>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+      <div class="avatar-wrapper">
+        <ion-avatar class="avatar">
+          <img class="foto-scss" alt="Perfil"
+            src="https://i.pinimg.com/736x/92/a7/54/92a75497fc61f4ecefd1f1735f4e0d79.jpg" />
+        </ion-avatar>
+      </div>
+
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Habilidades</ion-card-title>
+    </ion-card-header>
+  </ion-card>
+  <ion-card>
+    <ion-card-content class="card-section-content">
+      <div class="skill">
+        <span>MYSQL</span>
+        <ion-progress-bar value="0.9" color="primary"></ion-progress-bar>
+      </div>
+      <div class="skill">
+        <span>JavaScript</span>
+        <ion-progress-bar value="0.8" color="secondary"></ion-progress-bar>
+      </div>
+      <div class="skill">
+        <span>Aprendizaje de IA</span>
+        <ion-progress-bar value="0.7" color="tertiary"></ion-progress-bar>
+      </div>
+      <div class="skill">
+        <span>Trabajo en equipo</span>
+        <ion-progress-bar value="0.85" color="success"></ion-progress-bar>
+      </div>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Idiomas</ion-card-title>
+    </ion-card-header>
+  </ion-card>
+  <ion-card>
+    <ion-card-content class="card-section-content">
+      <div class="idioma">
+        <img src="https://flagcdn.com/w20/ec.png" alt="Español" /> Español (Nativo)
+      </div>
+      <div class="idioma">
+        <img src="https://flagcdn.com/w20/gb.png" alt="Inglés" /> Inglés (Básico)
+      </div>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Experiencia</ion-card-title>
+    </ion-card-header>
+  </ion-card>
+  <ion-card>
+    <ion-card-content class="card-section-content">
+      <ul>
+        <li>2 meses como servicio técnico en la Dirección de Gestión de la Información y Procesos</li>
+        <li>Trabajo como frontend en un sistema de bienes para la DGIP</li>
+      </ul>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Contactos</ion-card-title>
+    </ion-card-header>
+  </ion-card>
+  <ion-card>
+    <ion-card-content class="card-section-content">
+      <ul>
+        <li>Email: richard.padilla@email.com</li>
+        <li>Teléfono: 0962904692</li>
+        <li>Quito - Ecuador</li>
+      </ul>
+      <div class="social-links">
+        <a href="https://facebook.com" target="_blank">
+          <img src="https://cdn.simpleicons.org/facebook/1877F3" alt="Facebook"
+            style="width:24px;height:24px;vertical-align:middle;margin-right:6px;" /> Facebook
+        </a>
+        <a href="https://instagram.com" target="_blank">
+          <img src="https://cdn.simpleicons.org/instagram/E1306C" alt="Instagram"
+            style="width:24px;height:24px;vertical-align:middle;margin-right:6px;" /> Instagram
+        </a>
+      </div>
+    </ion-card-content>
+  </ion-card>
 </ion-content>

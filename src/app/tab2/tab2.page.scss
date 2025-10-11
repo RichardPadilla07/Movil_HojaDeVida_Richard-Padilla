@@ -1,0 +1,32 @@
+.foto-cv {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  border: 3px solid #3880ff;
+}
+
+.nivel-de-lenguaje {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+ion-progress-bar {
+  height: 10px;
+  border-radius: 5px;
+  --progress-background: #3880ff;
+  flex-grow: 1;
+}
+
+.indicador-de-nivel {
+  font-size: 14px;
+  color: #3880ff;
+  font-weight: bold;
+  min-width: 45px;
+}
