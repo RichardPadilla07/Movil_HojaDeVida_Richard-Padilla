@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Incluir configuraciones importantes -->
+    <include domain="sharedpref" path="." />
+    <include domain="database" path="." />
+    
+    <!-- Excluir archivos temporales y cache -->
+    <exclude domain="file" path="temp/" />
+    <exclude domain="cache" path="." />
+    <exclude domain="no_backup" path="." />
+    
+    <!-- Excluir información de sesión -->
+    <exclude domain="sharedpref" path="session_data.xml" />
+</full-backup-content>
