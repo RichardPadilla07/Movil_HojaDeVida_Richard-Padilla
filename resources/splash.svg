@@ -1,0 +1,68 @@
+<svg width="2732" height="2732" viewBox="0 0 2732 2732" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo degradado elegante -->
+  <defs>
+    <radialGradient id="bgGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#4c8dff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3880ff;stop-opacity:1" />
+    </radialGradient>
+    
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#000" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <!-- Fondo principal -->
+  <rect width="2732" height="2732" fill="url(#bgGradient)"/>
+  
+  <!-- Círculos decorativos de fondo -->
+  <circle cx="683" cy="683" r="100" fill="#fff" opacity="0.05"/>
+  <circle cx="2049" cy="683" r="150" fill="#fff" opacity="0.03"/>
+  <circle cx="683" cy="2049" r="120" fill="#fff" opacity="0.04"/>
+  <circle cx="2049" cy="2049" r="80" fill="#fff" opacity="0.06"/>
+  
+  <!-- Contenedor principal del icono -->
+  <g transform="translate(866, 866)">
+    <!-- Sombra del círculo principal -->
+    <circle cx="500" cy="508" r="480" fill="#000" opacity="0.1"/>
+    
+    <!-- Círculo principal del icono -->
+    <circle cx="500" cy="500" r="480" fill="#fff" stroke="#e0e7ff" stroke-width="8" filter="url(#shadow)"/>
+    
+    <!-- Documento CV -->
+    <rect x="200" y="150" width="600" height="650" rx="30" fill="#f8faff" stroke="#e0e7ff" stroke-width="4"/>
+    
+    <!-- Header del documento -->
+    <rect x="240" y="220" width="520" height="60" rx="15" fill="#3880ff"/>
+    <rect x="260" y="235" width="200" height="12" rx="6" fill="#fff" opacity="0.9"/>
+    <rect x="260" y="255" width="150" height="8" rx="4" fill="#fff" opacity="0.7"/>
+    
+    <!-- Líneas del CV -->
+    <rect x="240" y="320" width="450" height="8" rx="4" fill="#d1d5db"/>
+    <rect x="240" y="350" width="520" height="8" rx="4" fill="#d1d5db"/>
+    <rect x="240" y="380" width="380" height="8" rx="4" fill="#d1d5db"/>
+    <rect x="240" y="410" width="480" height="8" rx="4" fill="#d1d5db"/>
+    <rect x="240" y="440" width="350" height="8" rx="4" fill="#d1d5db"/>
+    
+    <!-- Sección de experiencia -->
+    <rect x="240" y="490" width="520" height="12" rx="6" fill="#3880ff" opacity="0.6"/>
+    <rect x="240" y="520" width="400" height="6" rx="3" fill="#d1d5db"/>
+    <rect x="240" y="540" width="480" height="6" rx="3" fill="#d1d5db"/>
+    <rect x="240" y="560" width="320" height="6" rx="3" fill="#d1d5db"/>
+    
+    <!-- Foto de perfil con marco -->
+    <circle cx="620" cy="600" r="80" fill="#e5e7eb" stroke="#d1d5db" stroke-width="3"/>
+    <circle cx="620" cy="580" r="25" fill="#9ca3af"/>
+    <path d="M 590 620 Q 620 640 650 620" stroke="#9ca3af" stroke-width="5" fill="none"/>
+    
+    <!-- Skills/Habilidades -->
+    <rect x="240" y="650" width="120" height="20" rx="10" fill="#10b981" opacity="0.8"/>
+    <rect x="380" y="650" width="100" height="20" rx="10" fill="#f59e0b" opacity="0.8"/>
+    <rect x="500" y="650" width="80" height="20" rx="10" fill="#ef4444" opacity="0.8"/>
+    
+    <!-- Texto "HOJA DE VIDA" -->
+    <text x="500" y="750" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="#3880ff">HOJA DE VIDA</text>
+  </g>
+  
+  <!-- Texto del nombre de la app en la parte inferior -->
+  <text x="1366" y="2500" font-family="Arial, sans-serif" font-size="36" font-weight="300" text-anchor="middle" fill="#fff" opacity="0.9">Hoja de Vida</text>
+</svg>

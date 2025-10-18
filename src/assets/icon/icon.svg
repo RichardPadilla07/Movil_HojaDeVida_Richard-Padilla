@@ -1,0 +1,20 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo circular -->
+  <circle cx="512" cy="512" r="480" fill="#3880ff" stroke="#fff" stroke-width="20"/>
+  
+  <!-- Icono de CV/documento -->
+  <rect x="312" y="200" width="400" height="520" rx="20" fill="#fff"/>
+  <rect x="352" y="280" width="320" height="40" rx="10" fill="#3880ff"/>
+  <rect x="352" y="360" width="280" height="20" rx="10" fill="#ddd"/>
+  <rect x="352" y="400" width="320" height="20" rx="10" fill="#ddd"/>
+  <rect x="352" y="440" width="240" height="20" rx="10" fill="#ddd"/>
+  <rect x="352" y="480" width="300" height="20" rx="10" fill="#ddd"/>
+  
+  <!-- Foto de perfil -->
+  <circle cx="432" cy="580" r="40" fill="#ddd"/>
+  <circle cx="432" cy="570" r="15" fill="#999"/>
+  <path d="M 412 595 Q 432 605 452 595" stroke="#999" stroke-width="3" fill="none"/>
+  
+  <!-- Texto CV -->
+  <text x="512" y="680" font-family="Arial, sans-serif" font-size="80" font-weight="bold" text-anchor="middle" fill="#3880ff">CV</text>
+</svg>
