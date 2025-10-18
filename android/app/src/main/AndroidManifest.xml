@@ -50,10 +50,6 @@
             <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths" />
         </provider>
         
-        <!-- Metadatos de la aplicación -->
-        <meta-data android:name="com.google.android.gms.version" 
-            android:value="@integer/google_play_services_version" />
-            
         <!-- Configuración para notch/cutout -->
         <meta-data android:name="android.max_aspect" android:value="2.4" />
         <meta-data android:name="android.notch_support" android:value="true" />
@@ -64,9 +60,9 @@
     </application>
     
     <!-- Soporte para diferentes versiones de Android -->
-    <uses-sdk android:minSdkVersion="22" 
-              android:targetSdkVersion="34" 
-              android:compileSdkVersion="34" />
+    <uses-sdk android:minSdkVersion="23" 
+              android:targetSdkVersion="35" 
+              android:compileSdkVersion="35" />
     
     <!-- Configuración de pantalla -->
     <supports-screens android:largeScreens="true"
@@ -75,7 +71,7 @@
                      android:xlargeScreens="true"
                      android:anyDensity="true" />
 
-    <!-- Permissions -->
+
     
     <!-- Permisos esenciales -->
     <uses-permission android:name="android.permission.INTERNET" />
@@ -99,10 +95,5 @@
     <!-- Permisos para vibración (feedback háptico) -->
     <uses-permission android:name="android.permission.VIBRATE" />
     
-    <!-- Características de hardware (opcionales) -->
-    <uses-feature android:name="android.hardware.camera" 
-        android:required="false" />
-    <uses-feature android:name="android.hardware.camera.autofocus" 
-        android:required="false" />
     
 </manifest>
