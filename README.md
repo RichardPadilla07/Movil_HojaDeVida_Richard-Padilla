@@ -1,6 +1,6 @@
-## DEBER DE CONSULTA 1 
+# DEBER DE CONSULTA 1 
 
-# Consultar sobre la implementación de una apk con ionic angular:
+## Consultar sobre la implementación de una apk con ionic angular:
 
 - Icono personalizado
 - Splash Screen
